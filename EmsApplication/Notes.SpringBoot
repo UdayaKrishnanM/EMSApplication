@@ -1,0 +1,77 @@
+Postman
+
+Request (json file/Postman (or) any server) -> Controller (http://localhost:8000) -> Service -> Repo -> DB
+This is request.
+
+DB -> Repo -> Service -> Controller -> Request
+This is response.
+
+
+Task :
+Add joining date and relieving data in db.
+
+
+@GetMapping is for fetching
+@PostMapping is for adding data
+
+
+JPA METHODS:
+save()
+saveall()
+delete() -> deletes while object
+deletebyid() -> deletes using id
+
+findbyid() -> used to fetch an id
+(or)
+getbyid() -> used to get one particular id (this is deprecated)
+
+findall() -> finds all data from the db
+
+
+
+JUNIT:
+end to end testing ensure as expected for functionality logic
+
+Syntax:
+Mockito.when(MethodCalling).thenReturn(output)
+Mockito.verify(ClassReference).METHODName
+
+
+//Annotations
+@JUnitRunwith(MockitoRunner.Class)
+@Test
+@Inject
+@InjectMock
+@IMock
+
+
+To connect with FrontEnd add this line
+@CrossOrigin(origin="*")
+
+HTTP ERROR PORTS:
+200 - Successfully Created
+201 - New Response Created Successfully
+400 - Invalid Response
+401 - Unauthorized Exception
+500 - Internal Server Issue
+404 - File Not Found
+
+Global Exception Handler:
+@ControllerAdvice
+
+RestTemplate class
+
+
+
+running swagger: localhost:3000/swagger-ui.html#/
+
+create sqagger class
+    step: Docket postApi(), Predicate<String> postPaths(), ApiInfo apiInfo(),
+
+@ApiOperation (value = ?) - defines the usage of the api
+
+
+Student:
+    Registration, Payment.
+    Write a common api for registration. localhost:8000/registration/post(or)get @RequestMapiping
+
