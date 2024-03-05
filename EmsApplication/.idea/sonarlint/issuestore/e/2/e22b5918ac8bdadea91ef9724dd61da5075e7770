@@ -1,0 +1,12 @@
+
+{
+java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(æ‘¾øÿÿÿÿ8à¢¢åß1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8»©õÔÛ1
+M
+java:S6856r"0Bind path variable "name" to a method parameter.(Ã±§Â8€¤¢åß1
+X	java:S125("<This block of commented-out lines of code should be removed.(£Âì™8’¤¢åß1
+a
+java:S1128	"DRemove this unused import 'org.springframework.http.HttpStatusCode'.(®å™Õ8²¤¢åß1
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8×©õÔÛ1

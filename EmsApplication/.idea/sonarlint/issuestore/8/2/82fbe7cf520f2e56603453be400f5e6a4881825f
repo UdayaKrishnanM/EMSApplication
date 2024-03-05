@@ -1,0 +1,20 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ωû…¥
+V	java:S125"<This block of commented-out lines of code should be removed.(∆£Çä˝ˇˇˇˇ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(’Î±ƒ¯ˇˇˇˇ
+J
+java:S1128"/Remove this unused import 'java.util.Optional'.(®òÎ›¸ˇˇˇˇ
+N
+java:S1128"8Remove this unused import 'java.util.function.Function'.(ª≥Õû
+_
+java:S1128"DRemove this unused import 'org.springframework.data.domain.Example'.(≥òúÕ¸ˇˇˇˇ
+\
+java:S1128"ARemove this unused import 'org.springframework.data.domain.Page'.(ò‚éé¸ˇˇˇˇ
+`
+java:S1128	"ERemove this unused import 'org.springframework.data.domain.Pageable'.(áÎÇ÷˝ˇˇˇˇ
+\
+java:S1128
+"ARemove this unused import 'org.springframework.data.domain.Sort'.(ÎˇÄÎ¯ˇˇˇˇ
+Ç
+java:S1128"gRemove this unused import 'org.springframework.data.repository.query.FluentQuery.FetchableFluentQuery'.(ïØ¨Ë¯ˇˇˇˇ
